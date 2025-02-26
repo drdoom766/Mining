@@ -1,0 +1,94 @@
+# Item tables
+
+    ITEMS = [   # Item, probability, graphic x, graphic y, width, height, pattern
+      [:DOMEFOSSIL, 20, 0, 3, 5, 4, [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0]],
+      [:HELIXFOSSIL, 5, 5, 3, 4, 4, [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0]],
+      [:HELIXFOSSIL, 5, 9, 3, 4, 4, [1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1]],
+      [:HELIXFOSSIL, 5, 13, 3, 4, 4, [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0]],
+      [:HELIXFOSSIL, 5, 17, 3, 4, 4, [1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1]],
+      [:OLDAMBER, 10, 21, 3, 4, 4, [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0]],
+      [:OLDAMBER, 10, 25, 3, 4, 4, [1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1]],
+      [:ROOTFOSSIL, 5, 0, 7, 5, 5, [1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0]],
+      [:ROOTFOSSIL, 5, 5, 7, 5, 5, [0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0]],
+      [:ROOTFOSSIL, 5, 10, 7, 5, 5, [0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1]],
+      [:ROOTFOSSIL, 5, 15, 7, 5, 5, [0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0]],
+      [:SKULLFOSSIL, 20, 20, 7, 4, 4, [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0]],
+      [:ARMORFOSSIL, 20, 24, 7, 5, 4, [0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0]],
+      [:CLAWFOSSIL, 5, 0, 12, 4, 5, [0, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0]],
+      [:CLAWFOSSIL, 5, 4, 12, 5, 4, [1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1]],
+      [:CLAWFOSSIL, 5, 9, 12, 4, 5, [0, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0]],
+      [:CLAWFOSSIL, 5, 13, 12, 5, 4, [1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1]]
+    ]
+    ITEMS2 = [   # Item, probability, graphic x, graphic y, width, height, pattern
+      [:FIRESTONE, 20, 20, 11, 3, 3, [1, 1, 1, 1, 1, 1, 1, 1, 1]],
+      [:WATERSTONE, 20, 23, 11, 3, 3, [1, 1, 1, 1, 1, 1, 1, 1, 0]],
+      [:THUNDERSTONE, 20, 26, 11, 3, 3, [0, 1, 1, 1, 1, 1, 1, 1, 0]],
+      [:LEAFSTONE, 10, 18, 14, 3, 4, [0, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0]],
+      [:LEAFSTONE, 10, 21, 14, 4, 3, [0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 0]],
+      [:MOONSTONE, 10, 25, 14, 4, 2, [0, 1, 1, 1, 1, 1, 1, 0]],
+      [:MOONSTONE, 10, 27, 16, 2, 4, [1, 0, 1, 1, 1, 1, 0, 1]],
+      [:SUNSTONE, 20, 21, 17, 3, 3, [0, 1, 0, 1, 1, 1, 1, 1, 1]],
+      [:OVALSTONE, 150, 24, 17, 3, 3, [1, 1, 1, 1, 1, 1, 1, 1, 1]],
+      [:EVERSTONE, 150, 21, 20, 4, 2, [1, 1, 1, 1, 1, 1, 1, 1]]
+    ]
+
+
+#Added Method for finding tables
+
+def get_active_item_table
+  if $game_switches[100]
+    return ITEMS
+  else
+    return ITEMS2
+  end
+end
+
+  
+  def pbDistributeItems
+    # Set items to be buried (index in ITEMS, x coord, y coord)
+    ptotal = 0
+# Calls for table
+    active_item_table = get_active_item_table
+    ITEMS.replace(active_item_table)
+    
+    ITEMS.each do |i|
+      ptotal += i[1]
+    end
+    numitems = rand(2..4)
+    tries = 0
+    while numitems > 0
+      rnd = rand(ptotal)
+      added = false
+      ITEMS.length.times do |i|
+        rnd -= ITEMS[i][1]
+        if rnd < 0
+          if pbNoDuplicateItems(ITEMS[i][0])
+            until added
+              provx = rand(BOARD_WIDTH - ITEMS[i][4] + 1)
+              provy = rand(BOARD_HEIGHT - ITEMS[i][5] + 1)
+              if pbCheckOverlaps(false, provx, provy, ITEMS[i][4], ITEMS[i][5], ITEMS[i][6])
+                @items.push([i, provx, provy])
+                numitems -= 1
+                added = true
+              end
+            end
+          else
+            break
+          end
+        end
+        break if added
+      end
+      tries += 1
+      break if tries >= 500
+    end
+    # Draw items on item layer
+    layer = @sprites["itemlayer"].bitmap
+    @items.each do |i|
+      ox = ITEMS[i[0]][2]
+      oy = ITEMS[i[0]][3]
+      rectx = ITEMS[i[0]][4]
+      recty = ITEMS[i[0]][5]
+      layer.blt(32 * i[1], 64 + (32 * i[2]), @itembitmap.bitmap, Rect.new(32 * ox, 32 * oy, 32 * rectx, 32 * recty))
+    end
+  end
+
